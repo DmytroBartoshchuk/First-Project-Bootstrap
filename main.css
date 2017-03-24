@@ -1,3 +1,14 @@
-div{
-	background-color: #87CEFA;
+/*.pic{
+	position: relative;
+	text-align: center;
+	width: 100%;
+}*/
+ul{
+	position: relative;
+	left: 17%;
 }
+
+div{
+	text-align: center;
+}
+
