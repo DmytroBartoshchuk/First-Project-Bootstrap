@@ -9,16 +9,30 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-  <nav>
-    <div class="container-fluid">
-      <ul class="nav nav-tabs">
-        <li role="presentation" class="active"><a href="#">Start</a></li>
-        <li role="presentation"><a href="#">Blog</a></li>
-        <li role="presentation"><a href="#">Photos</a></li>
-        <li role="presentation"><a href="#">Video</a></li>
-      </ul> 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Start</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Photo <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Video</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+      </div>
     </div>
-  </nav>
+    
+  </div><!-- /.container-fluid -->
+</nav>
 
   <div class="container">
     <div class="row">
@@ -36,7 +50,7 @@
         <h2>Krakow</h2> is the second largest and one of the oldest cities in Poland. Situated on the Vistula River in the Lesser Poland  region, the city dates back to the 7th century. Krakow has traditionally been one of the leading centres of Polish academic, cultural, and artistic life and is one of Poland's most important economic hubs.
         <h2>Warsaw</h2> is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1.750 million residents within a greater metropolitan area of 3.101 million residents, which makes Warsaw the 9th most-populous capital city in the European Union.</p>
       </div>
-      
+
       <div class="col-md-6">
         <img src="ava.jpeg" alt="ava" class="img-circle">
         <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div></div>
@@ -69,8 +83,11 @@
           </div>
         </form>
       </div>
-    </div>
-
+      </div>
+      <footer class="row">
+        © 2017 Dmytro Bartoshchuk
+      </footer>
+    
   </div>
 
 </body>
