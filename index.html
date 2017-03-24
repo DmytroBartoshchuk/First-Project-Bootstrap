@@ -6,35 +6,72 @@
 	<title>MyPage in bootstrap</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-<nav>
-  <div class="container-fluid">
-        <ul class="nav nav-tabs">
+  <nav>
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
         <li role="presentation" class="active"><a href="#">Start</a></li>
         <li role="presentation"><a href="#">Blog</a></li>
         <li role="presentation"><a href="#">Photos</a></li>
         <li role="presentation"><a href="#">Video</a></li>
-        </ul> 
+      </ul> 
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 abc"><img class="img-responsive center-block" src="http://www.historytrips.eu/images/castles/Castle_de_Haar.jpg" width="100%" alt="castle"></div>
+    </div>  
+
+    <div class="row">
+      <div class="col-md-4 bca"><i class="fa fa-check-circle" aria-hidden="true"></i><h3>Dubno</h3></div>
+      <div class="col-md-4 bca"><i class="fa fa-check-circle" aria-hidden="true"></i><h3>Krakow</h3></div>
+      <div class="col-md-4 bca"><i class="fa fa-check-circle" aria-hidden="true"></i><h3>Warsaw</h3></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 text-left"><p><h2>Dubno</h2> is a city located on the Ikva River in the Rivne Oblast (province) of western Ukraine. Serving as the administrative center of Dubno Raion (district), the city itself is also designated as a separate raion within the oblast. The city is located on intersection of two major European routes E40 and E84.
+        <h2>Krakow</h2> is the second largest and one of the oldest cities in Poland. Situated on the Vistula River in the Lesser Poland  region, the city dates back to the 7th century. Krakow has traditionally been one of the leading centres of Polish academic, cultural, and artistic life and is one of Poland's most important economic hubs.
+        <h2>Warsaw</h2> is the capital and largest city of Poland. It stands on the Vistula River in east-central Poland, roughly 260 kilometres (160 mi) from the Baltic Sea and 300 kilometres (190 mi) from the Carpathian Mountains. Its population is estimated at 1.750 million residents within a greater metropolitan area of 3.101 million residents, which makes Warsaw the 9th most-populous capital city in the European Union.</p>
+      </div>
+      
+      <div class="col-md-6">
+        <img src="ava.jpeg" alt="ava" class="img-circle">
+        <div class="progress"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div></div>
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-default">Sign in</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
   </div>
-</nav>
-
-<div class="container">
-  <div class="row">
-  <div class="col-md-12 abc"><img class="img-responsive center-block" src="http://www.historytrips.eu/images/castles/Castle_de_Haar.jpg" width="100%" alt="castle"></div>
-  </div>  
-
-  <div class="row">
-  <div class="col-md-4 bca"><i class="fa fa-check-circle" aria-hidden="true"></i><h3>Dubno</h3></div>
-  <div class="col-md-4 bca"><i class="fa fa-check-circle" aria-hidden="true"></i><h3>Krakow</h3></div>
-  <div class="col-md-4 bca"><i class="fa fa-check-circle" aria-hidden="true"></i><h3>Warszawa</h3></div>
-
-  <div class="row">
-    
-  </div>
-
-</div>
 
 </body>
 </html>
